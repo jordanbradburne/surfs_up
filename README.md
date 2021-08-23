@@ -13,11 +13,10 @@ The purpose of this analysis is to gather more information about temperature sta
 * SQLAlchemy 
 * hawaii.sqlite database
 
-## Results: 
-
 ### Goal:
 Using Python, Pandas functions and methods, and SQLAlchemy, filter the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the months of June and December. Convert these temperatures to a list, create a DataFrame, and generate the summary statistics.
 
+## Results: 
 1. Determine the Summary Statistics for June
 
 * In June there was a total count of 1700, mean of 74.9, min of 64.0 and max of 85.0
@@ -35,5 +34,4 @@ Using Python, Pandas functions and methods, and SQLAlchemy, filter the date colu
 * Standard deviation is 3.25 in June and 3.75 in December, which makes a .5 difference in the two different seasons. This therefore proves tempurature would not be the issue in running a surf shop year around.
 
 ## Summary: 
-
 Based on the data, there is a clear analysis of what the tempurature would be like year around. Although, there are other attributes to the weather that could affect the successfulness of this surfshop. An example of this is precipitation. This shows that there can be additional quieries to run in order to have a better understanding of whether or not people can come and visit the shop. If given more access to more data from the area, then even more quieries could be run. From there, this will help decide how to build the shop and, furthermore, what areas would make this a more prominent location for visitors to come.
